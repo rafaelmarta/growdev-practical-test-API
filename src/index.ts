@@ -50,5 +50,5 @@ app.post('/comment', (request: Request, response: Response) => {
 
 const port = process.env.PORT || 8080;
 app.listen(port, () => {
-    console.log('Server running...');
+    console.log('The server is running...');
 })
